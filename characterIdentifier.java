@@ -4,7 +4,7 @@ public class characterIdentifier{
    public static void main(String[] args){
       Scanner con = new Scanner(System.in);
       String characters = "";
-      System.out.println("Enter a String: ");
+      System.out.print("Enter a String: ");
       characters = con.nextLine();
       int lowerCaseCount = 0, lowerCaseVowelCount = 0, lowerCaseVowelConsonant = 0, specialChar = 0;
       char[] smallLetters = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
